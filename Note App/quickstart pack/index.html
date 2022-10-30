@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Note App</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  
+  <section class="notesection">
+    <div class="container">
+      <div class="row justify-content-md-center">
+        <div class="col-sm-12 col-md-8 ">
+          <h1 class="text-center">Saving Notes in Local Storage:</h1>
+          <div class="notes">
+            <div class="form-row">
+                <input type="text" class="form-control mr" placeholder="Enter your note" id="addnoteinput" />
+                <button type="button" class="btn btn-success mr-sm-2" id="addnotebtn">
+                Add Note
+              </button>
+              <button type="button" id="deleteallbtn" class="btn btn-danger">
+                Delete All
+              </button>
+            </div>
+            <div class="to-do-output">
+              <table class="table" id="addednotelist">
+                
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
