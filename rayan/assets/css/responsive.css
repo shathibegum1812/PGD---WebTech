@@ -1,0 +1,18 @@
+@media only screen and (max-width: 360px) {
+	.heading{
+	font-size: 45px;
+	}
+}
+@media only screen and (max-width: 768px) {
+	.home-text h1{
+	font-size: 400%;
+	}
+	.type {
+    font-size: 200%;
+	}
+}
+@media only screen and (max-width: 1024px) {
+	.about-text h1{
+		margin-top: 0; 
+	}
+}
